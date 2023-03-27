@@ -21,6 +21,6 @@ y = signal.lfilter (taps, 1.0, x)
 plt. figure (figsize= (20, 6))
 plt.xlim (0.2,0.3)
 plt.plot(t, x, label= 'Señal original')
-#plt.plot(t, y, label= 'Señal filtrada')
+plt.plot(t, y, label= 'Señal filtrada')
 plt.legend
 plt.show
